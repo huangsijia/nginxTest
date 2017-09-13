@@ -50,6 +50,7 @@ http {
 
         location / {
             root   "F:/trunk/";
+	    # root "F:/bxjrweb/branches/586_XiangNian/xiangnian";
             index  index.html;
         }
         location ^~ /zp/ {
